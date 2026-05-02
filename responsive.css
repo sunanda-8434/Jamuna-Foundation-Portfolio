@@ -47,13 +47,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
-    flex-direction: column;
-    row-gap: 30px;
+    gap: 30px;
   }
   .project-card {
     width: 300px;
-    height: 280px;
     border: 1px solid rgb(163, 157, 157);
     border-radius: 6px;
     padding: 10px;
@@ -66,11 +63,11 @@
     margin: 5px 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    position: absolute;
+    position: static;
     bottom: 10px;
   }
   .project-card p {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 6px;
     text-align: justify;
   }

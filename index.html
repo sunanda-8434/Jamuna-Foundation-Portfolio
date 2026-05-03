@@ -1,390 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio ~~</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio ~~</title>
 
-  <body>
-    <div class="bg-container" id="bgContainer">
-      <header class="header-start">
-        <h2 class="logo"><span>P</span>ortfolio</h2>
-        <nav class="nav-bar">
-          <div class="hamburger" id="hamburger">☰</div>
-          <ul class="nav-bar-list" id="navMenu">
-            <!-- Button -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
 
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#project">project</a></li>
-            <li><a href="#skills">skills</a></li>
-            <li><a href="#contact">contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <!-- hero section -->
-        <section class="hero" id="home">
-          <div class="hero-section-text">
-            <h2>Sunanda Kumari</h2>
-            <p>
-              I am UI <br />
-              <span style="color: #0bfab2; font-size: 16px"
-                >Full stack Developer</span
-              >
-            </p>
-            <br />
-          </div>
-          <div class="hero-section-image">
-            <img
-              src="https://hopingminds.com/login_bg.png"
-              alt="image"
-              id="images"
-            />
-          </div>
-        </section>
-        <!-- about section -->
-        <section class="about-section" id="about">
-          <h3 class="heading-text">About me</h3>
-          <p class="about-para-text">
-            Hello! I'm a passionate
-            <strong>Full Stack Web Developer</strong> currently undergoing
-            professional training in modern web technologies. I am pursuing
-            Bachelor's of technologies <br />
-            <b>( BTEC.- CSE ) </b> in Computer Science and have a strong
-            foundation in programming and problem-solving.
-          </p>
-          <p class="about-para-text">
-            I specialize in building responsive, user-friendly websites using
-            <strong>HTML, CSS, JavaScript</strong>, and modern tools like
-            <strong>React, Node.js, MongoDB, and Python</strong>. I love learning new
-            things and continuously improving my skills to become an
-            industry-ready developer.
-          </p>
-        </section>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous" />
+</head>
 
-        <!-- project  section----------------->
+<body>
 
-        <!-- Remove all .project-card elements inside .project-container -->
-        <section class="project" id="project">
-          <h2 class="heading-text">Projects</h2>
+<div class="bg-container" id="bgContainer">
 
-          <div class="project-container" id="projectContainer">
-            <div class="project-card">
-              <h3>GrocyQueen</h3>
-              <h5 class="Aboutproj">About of project</h5>
-              <p>
-                <b>GrocyQueen</b> is a responsive grocery store UI application
-                built with React, Tailwind CSS, and React Icons. It provides a
-                modern and user-friendly interface to explore grocery items with
-                a well-structured layout. The app features categorized sections
-                for different grocery products, making it easy for users to
-                browse through items quickly. With a responsive design,
-                <b>GrocyQueen</b> ensures smooth usability across
-                devices—whether desktop, tablet, or mobile. Its clean visuals,
-                intuitive navigation, and organized categories make it a perfect
-                template for any grocery-related web application.
-                <br />
-                <b>Tech Used </b>: ReactJS,TailwindCSS
-              </p>
+  <!-- HEADER -->
+  <header class="header-start">
+    <h2 class="logo"><span>P</span>ortfolio</h2>
 
-              <div class="project-button">
-                <button
-                  class="btn2"
-                  onclick="window.open('https:github.com/smkumarmishra/ReactApp-GrocyQueen', '_blank')"
-                >
-                  Github Code
-                </button>
-              </div>
-            </div>
+    <nav class="nav-bar">
+      <div class="hamburger" id="hamburger">☰</div>
 
-            <div class="project-card">
-              <h3>Hangar-Food Delivery</h3>
-              <h5 class="Aboutproj">About of project</h5>
-              <p>
-                "<b>Hungar</b>is a dynamic and responsive food delivery web
-                application inspired by platforms like Swiggy and Zomato. It
-                allows users to Browse popular and categorized dishes - Search
-                dishes or restaurant types -Add items to a cart - Adjust item
-                quantities and place orders - Register and log in via
-                localStorage ",
-              </p>
-              <div class="project-button">
-                <button class="btn2">Github Code</button>
-              </div>
-                <div class="project-card">
-              <h3>Face Recognition Attendance system</h3>
-              <h5 class="Aboutproj">About of project</h5>
-              <p>
-                <b>Face Recognition attendance</b> Developed an automated attendance tracking system using pythone for logic and HTML, CSS,AND JavaScript for the interface<br>
-              The system uses face recognition technology to identify individuals and mark attendance efficiency, reducing manual effort.</p>
-              <div class="project-button">
-                <button class="btn2">Github Code</button>
-              </div>
-            </div>
+      <ul class="nav-bar-list" id="navMenu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            <div class="project-card">
-                <div class="project-card">
-              <h3>Object Detection</h3>
-              <h5 class="Aboutproj">About of project</h5>
-              <p>
-                "<b>Object Detection</b> Developed an object detection system using pythone.<br>
-                It detects and identifies objects from images stream,improving accuracy and automation
-              </p>
-              <div class="project-button">
-                <button class="btn2">Github Code</button>
-              </div>
-              <h3>E-commerce</h3>
-              <h5 class="Aboutproj">About of project</h5>
-              <p>
-                "<b>MyShop</b> is a fully responsive and dynamic e-commerce web
-                application designed to deliver a smooth and intuitive online
-                shopping experience. Built using HTML, CSS, JavaScript, and
-                optionally integrated with frameworks like React or Bootstrap,
-                the platform showcases modern UI/UX practices and essential
-                e-commerce features. "
-              </p>
-              <div class="project-button">
-                <button class="btn2">Github Code</button>
-              </div>
-            </div>
+  <main>
 
-            <div class="project-card">
-              <h3>React Quiz App</h3>
-              <h5 class="Aboutproj">About of project</h5>
-              <p>
-                <b>React Quiz App-</b>Interactive MCQ Application (Project
-                Summary)The React Quiz App is a fully responsive and interactive
-                multiple-choice quiz application developed using React.js. It
-                provides a smooth user experience with real-time feedback and
-                score tracking, making it ideal for learning and testing
-                knowledge across different topics. "
-              </p>
-              <div class="project-button">
-                <button class="btn2">Github Code</button>
-              </div>
-            </div>
+    <!-- HERO -->
+    <section class="hero" id="home">
 
-            <div class="project-card">
-              <h3>Donation Calculator</h3>
-              <h5 class="Aboutproj">About of project</h5>
-              <p>
-                <b>Donation Calculator —</b>A responsive web app built with
-                HTML, CSS, and JavaScript that helps users calculate the impact
-                of their donations, such as trees planted per dollar. It
-                features quick amount buttons, custom input, and real-time
-                results using CSS Grid and JavaScript event handling.
-              </p>
-              <div class="project-button">
-                <button class="btn2">Github Code</button>
-              </div>
-            </div>
-          </div>
-        </section>
+      <div class="hero-section-text">
+        <h2>Sunanda Kumari</h2>
+        <p>
+          I am UI <br />
+          <span style="color:#0bfab2; font-size:16px;">Full Stack Developer</span>
+        </p>
+      </div>
 
-        <!-- skill section -->
-        <section class="skills" id="skills">
-          <h2 class="heading-text">Skills</h2>
-          <div class="skill-container">
-            <div class="icon-container">
-              <i
-                class="fa-brands fa-html5 fa-beat-fade fa-6x"
-                style="color: #d80e65"
-              ></i>
-              <p>HTML5</p>
-            </div>
-            <div class="icon-container">
-              <i
-                class="fa-brands fa-css3 fa-beat-fade fa-6x"
-                style="color: #7247f6"
-              ></i>
-              <p>CSS3</p>
-            </div>
-            <div class="icon-container">
-              <i
-                class="fa-brands fa-js fa-beat fa-6x"
-                style="color: #ffd43b"
-              ></i>
-              <p>js</p>
-            </div>
-            <div class="icon-container">
-              <i
-                class="fa-brands fa-react fa-beat-fade fa-6x"
-                style="color: #4306fb"
-              ></i>
-              <p>react</p>
-            </div>
+      <div class="hero-section-image">
+        <img src="https://hopingminds.com/login_bg.png" alt="image">
+      </div>
 
-            <div class="icon-container">
-              <i
-                class="fa-brands fa-node-js fa-fade fa-6x"
-                style="color: #0bfab2"
-              ></i>
-              <p>node.js</p>
-            </div>
-            <div class="icon-container">
-              <i
-                class="fa-solid fa-leaf fa-beat fa-6x"
-                style="color: #2af81b"
-              ></i>
-              <div class="icon-container">
-              <i
-                class="fa-brands fa-bootstrap fa-beat fa-6x"
-                style="color: #7952B3"
-              ></i>
-              <p>Bootstrap</p>
-            </div>
-              <p>MangoDB</p>
-            </div>
-            <div class="icon-container">
-              <i
-                class="fa-brands fa-python fa-beat fa-6x"
-                style="color: #3776AB"
-              ></i>
-              <p>Python</p>
-            </div>
-          </div>
-        </section>
-        <!-- button section -->
-        <section>
-          <div class="resume-section">
-            <a href="Sunanda_CV.pdf" download class="download-btn"
-              >Download Resume</a
-            >
-            <a href="Sunanda_CV.pdf" target="_blank" class="download-btn"
-              >View Resume</a
-            >
-          </div>
-        </section>
+    </section>
 
-        <!-- contact area -->
-        <section class="contact" id="contact">
-          <h3 class="heading-text">Hire Me</h3>
-          <div class="contact-section">
-            <form id="form">
-              <div class="form-row">
-                <input
-                  type="text"
-                  name="user_name"
-                  placeholder="Your Name"
-                  required
-                />
-                <input
-                  type="email"
-                  name="user_email"
-                  placeholder="Your Email"
-                  required
-                />
-                <input
-                  type="tel"
-                  name="user_phone"
-                  placeholder="Your Phone"
-                  pattern="[0-9]{10}"
-                  required
-                />
-              </div>
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+      <h3 class="heading-text">About me</h3>
 
-              <div class="textarea-wrapper">
-                <textarea
-                  name="message"
-                  id="messageBox"
-                  rows="6"
-                  maxlength="1000"
-                  placeholder="Write your message..."
-                  class="msgbox"
-                  required
-                ></textarea>
-                <div class="char-count" id="charCount">1000</div>
-              </div>
-              <button type="submit">Send Message</button>
-            </form>
-          </div>
-        </section>
-      </main>
+      <p class="about-para-text">
+        Hello! I'm a passionate <strong>Full Stack Web Developer</strong> currently undergoing training in modern web technologies.
+      </p>
 
-      <!-- footer section -->
+      <p class="about-para-text">
+        I specialize in HTML, CSS, JavaScript, React, Node.js, MongoDB, and Python.
+      </p>
+    </section>
 
-      <footer class="footer">
-        <div class="footer-container">
-          <div class="footer-column">
-            <h3>Portfolio</h3>
-            <p>Get in Touch</p>
-          </div>
+    <!-- PROJECTS -->
+    <section class="project" id="project">
+      <h2 class="heading-text">Projects</h2>
 
-          <div class="footer-column">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">about</a></li>
-              <li><a href="#project">project</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+      <div class="project-container">
 
-          <div class="footer-column">
-            <h4>Contact</h4>
-            <p>Email: support@myshop.com</p>
-            <p>Phone: +91-9876543210</p>
-            <p>Whatsapp: +91 7362052372</p>
-            <pre>Bihar, India</pre>
-          </div>
+        <div class="project-card">
+          <h3>GrocyQueen</h3>
+          <h5 class="Aboutproj">About project</h5>
+          <p>React + Tailwind grocery UI application.</p>
 
-          <div class="footer-column">
-            <h4>Follow Us</h4>
-            <ul class="social-icons">
-              <li>
-                <a href="#"
-                  ><i class="fa-brands fa-facebook-f fa-beat"></i>
-                  Facebook.com</a
-                >
-              </li>
-              <li>
-                <a href=""
-                  ><i class="fa-brands fa-instagram fa-beat"></i>
-                  Instagram.com</a
-                >
-              </li>
-              <li>
-                <a href=""
-                  ><i class="fa-brands fa-square-youtube fa-beat"></i>
-                  Youtube.com</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/saurbh-mishra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                  ><i class="fa-brands fa-linkedin-in fa-beat"></i>
-                  Linkedin.com</a
-                >
-              </li>
-              <li>
-                <a href=""
-                  ><i class="fa-brands fa-whatsapp fa-beat"></i> Whatsapp.com</a
-                >
-              </li>
-            </ul>
+          <div class="project-button">
+            <button class="btn2"
+              onclick="window.open('https://github.com/smkumarmishra/ReactApp-GrocyQueen','_blank')">
+              Github Code
+            </button>
           </div>
         </div>
 
-        <div class="footer-bottom">
-          <p>&copy; 2025 Portfolio .All rights reserved.</p>
+        <div class="project-card">
+          <h3>Hangar Food Delivery</h3>
+          <h5 class="Aboutproj">About project</h5>
+          <p>Food delivery web app like Swiggy/Zomato.</p>
+
+          <div class="project-button">
+            <button class="btn2">Github Code</button>
+          </div>
         </div>
-        <marquee behavior="scroll" direction="left"
-          >This Project is created for my Internship : Jamuna
-          Foundation</marquee
-        >
-      </footer>
-    </div>
-  </body>
+
+        <div class="project-card">
+          <h3>Face Recognition</h3>
+          <h5 class="Aboutproj">About project</h5>
+          <p>Python-based attendance system using face recognition.</p>
+
+          <div class="project-button">
+            <button class="btn2">Github Code</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Object Detection</h3>
+          <h5 class="Aboutproj">About project</h5>
+          <p>Detect objects using Python ML model.</p>
+
+          <div class="project-button">
+            <button class="btn2">Github Code</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>E-commerce</h3>
+          <h5 class="Aboutproj">About project</h5>
+          <p>Fully responsive online shopping website.</p>
+
+          <div class="project-button">
+            <button class="btn2">Github Code</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>React Quiz App</h3>
+          <h5 class="Aboutproj">About project</h5>
+          <p>MCQ quiz app with score tracking system.</p>
+
+          <div class="project-button">
+            <button class="btn2">Github Code</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Donation Calculator</h3>
+          <h5 class="Aboutproj">About project</h5>
+          <p>Donation impact calculator using JavaScript.</p>
+
+          <div class="project-button">
+            <button class="btn2">Github Code</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <h2 class="heading-text">Skills</h2>
+
+      <div class="skill-container">
+
+        <div class="icon-container">
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fa-brands fa-css3"></i>
+          <p>CSS</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fa-brands fa-js"></i>
+          <p>JavaScript</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fa-brands fa-react"></i>
+          <p>React</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fa-brands fa-node-js"></i>
+          <p>Node.js</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fa-brands fa-bootstrap"></i>
+          <p>Bootstrap</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fa-solid fa-leaf"></i>
+          <p>MongoDB</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fa-brands fa-python"></i>
+          <p>Python</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section>
+      <div class="resume-section">
+        <a href="Sunanda_CV.pdf" download class="download-btn">Download Resume</a>
+        <a href="Sunanda_CV.pdf" target="_blank" class="download-btn">View Resume</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h3 class="heading-text">Hire Me</h3>
+
+      <form>
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="tel" placeholder="Your Phone" required>
+        </div>
+
+        <textarea rows="6" placeholder="Message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p style="text-align:center;">© 2025 Portfolio. All rights reserved.</p>
+  </footer>
+
+</div>
+
+</body>
 </html>
